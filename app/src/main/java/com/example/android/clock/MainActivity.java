@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
+
+    private void test(){
+        int i = 4 + 4;
+    }
 }
